@@ -1,7 +1,3 @@
-Sure! Here's the complete code for your README.md in one go:
-
-markdown
-Copy code
 # Hand and Arm Tracking with MediaPipe, OpenCV, and Arduino
 
 ## Table of Contents
@@ -63,46 +59,3 @@ Run the following command to start the program:
 # bash
 Copy code
 **python track_that_arm.py**
-
-The camera feed will show real-time tracking, and the calculated angles (shoulder, elbow, wrist) will be displayed on the screen.
-Press q to quit the application.
-Keyboard Controls
-Key	Action
-q	Quit the program
-Project Structure
-bash
-# Copy code
-.
-├── README.md               # Project documentation
-├── trck_that_arm.py      # Main Python script
-└── requirements.txt         # List of dependencies
-# Servo Motor Mapping
-Joint	Servo Pin	Function
-Shoulder	D9	Controls shoulder movement
-Elbow	D10	Controls elbow movement
-Wrist	D11	Controls wrist movement
-Hand	D12	Controls hand/finger movement
-Contributing
-Contributions are welcome! Here's how you can contribute:
-
-Fork the repository.
-Create a new feature branch (git checkout -b feature-name).
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-name).
-Open a pull request.
-# License
-This project is licensed under the MIT License.
-
-Acknowledgments
-MediaPipe - for the pose tracking solution.
-OpenCV - for video processing.
-PyFirmata - for Arduino integration.
-csharp
-Copy code
-
-You can copy and paste this directly into your `README.md`. Adjust the repository and script names where necessary!
-
-
-
-
-
